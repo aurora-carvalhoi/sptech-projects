@@ -3,4 +3,49 @@
 .container {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-color: #b9fbc0;
+    color: #fb6f92;
+    
 }
+
+.cabecalho {
+    background-color: #cfbaf0;
+    text-align: center;
+}
+
+.cabecalho p:first-child {
+    color: #5e548e;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cabecalho p:nth-child(2) {
+    color: #5e548e;
+}
+
+.cabecalho p:nth-child(3) {
+    color: #7209b7;
+    text-decoration: underline;
+}
+
+.conteudo {
+    background-color: #f1c0e8;
+    color: #da627d;
+}
+
+.conteudo p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/* desafio plus 2 */
+@media (max-width: 480px) {
+   .container {
+    /*font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #fb6f92;
+    testando, descobri que mesmo re-referenciando não sobrescreve tudo*/ 
+    background-color: #ADD8E6;
+} 
+}
+
